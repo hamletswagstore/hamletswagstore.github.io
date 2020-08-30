@@ -8,6 +8,8 @@
 	<title>Hamlet-themed Face Masks | Hamlet Swag Store</title>
 	<meta name="description" content="Fabulous Hamlet-themed face coverings. Washable two-layer soft polyester face covering with a printed outer layer. Available in Adult, Teen and Kids' sizes.">
 
+	<link href="../assets/img/favicon-200x200.png" rel="shortcut icon">
+
 	<link rel="stylesheet" href="../assets/css/hamlet-swag-store.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -16,19 +18,19 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
 
 	<meta name="author" content="Brendan Munnelly">
-	<link rel="canonical" href="https://www.hamletswagstore.com/face-masks" />
+	<link rel="canonical" href="https://hamletswagstore.com/face-masks" />
 	
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Hamlet-themed Laptop Skins | Hamlet Swag Store" />
-	<meta property="og:url" content="https://www.hamletswagstore.com/" />
+	<meta property="og:url" content="https://hamletswagstore.com/" />
 	<meta property="og:site_name" content="Hamlet Swag Store" />
-	<meta property="og:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/face-masks.png" />
+	<meta property="og:image" content="https://hamletswagstore.com/assets/img/twitter-cards/face-masks.png" />
 
 	<meta name="twitter:site" content="@essaykit">
 	<meta name="twitter:creator" content="@essaykit">
 	<meta name="twitter:title" content="Hamlet-themed Laptop Skins | Hamlet Swag Store">
 	<meta name="twitter:description" content="Fabulous Hamlet-themed face coverings. Washable two-layer soft polyester face covering with a printed outer layer. Available in Adult, Teen and Kids' sizes.">
-	<meta name="twitter:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/face-masks.png">
+	<meta name="twitter:image" content="https://hamletswagstore.com/assets/img/twitter-cards/face-masks.png">
 
 	<style>
 
@@ -84,7 +86,7 @@
 	 <!-- Begin mobile menu bar -->
 	 <div class="container-menu-bar-mobile">
 		<!-- first child -->
-		<a href="#"><img src="../assets/img/website-logo-mobile.png" alt="website logo"></a>  
+		<a href="../"><img src="../assets/img/website-logo-mobile.png" alt="website logo"></a>  
 		<!-- second child -->
 		<div class="item-icon">
 			<div class="bar1"></div>
