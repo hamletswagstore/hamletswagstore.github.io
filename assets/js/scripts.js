@@ -93,7 +93,7 @@ document.addEventListener('click', function (event) {
 	event.preventDefault();
     // Log the clicked element in the console
     //console.log(event.target);
-    setCookie('Elsinore99','essaykit.com',365);
+    setCookie('Elsinore','hamletswagstore.com',365);
     closeCookieMessage();
 }, false);
 
