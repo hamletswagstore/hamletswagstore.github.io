@@ -3,48 +3,43 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hamlet-themed Apple Laptop Sleeves | Hamlet Swag Store</title>
-	<meta name="description" content="Protect your laptop in literary style with these Hamlet-themed laptop sleeves. Protective foam padding.Vivid styles and vibrant colors.">
+	<title>Hamlet-themed Apple iPhone Wallets | Hamlet Swag Store</title>
+	<meta name="description" content="Protect your Apple iPhone with a stylish Hamlet-themed wallet. Full access to camera, buttons and ports. Easy to clean with a damp cloth.">
 
 	<link rel="stylesheet" href="../assets/css/hamlet-swag-store.css">
-
+	
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 	<!-- Link to icons for Font Awesome 5 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
 
 	<meta name="author" content="Brendan Munnelly">
-	<link rel="canonical" href="https://www.hamletswagstore.com/apple-laptop-sleeves" />
-	
+	<link rel="canonical" href="https://www.hamletswagstore.com/apple-iphone-wallets" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Hamlet-themed Laptop Sleeves | Hamlet Swag Store" />
+	<meta property="og:title" content="Hamlet-themed Apple iPhone Wallets | Hamlet Swag Store" />
 	<meta property="og:url" content="https://www.hamletswagstore.com/" />
 	<meta property="og:site_name" content="Hamlet Swag Store" />
-	<meta property="og:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/apple-laptop-sleeves.png" />
+	<meta property="og:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/apple-iphone-wallets.png" />
 
 	<meta name="twitter:site" content="@essaykit">
 	<meta name="twitter:creator" content="@essaykit">
-	<meta name="twitter:title" content="Hamlet-themed Laptop Sleeves | Hamlet Swag Store">
-	<meta name="twitter:description" content="Protect your laptop in literary style with these Hamlet-themed laptop sleeves. Protective foam padding.Vivid styles and vibrant colors.">
-	<meta name="twitter:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/apple-laptop-sleeves.png">
-
+	<meta name="twitter:title" content="Hamlet-themed Apple iPhone Wallets | Hamlet Swag Store">
+	<meta name="twitter:description" content="Protect your Apple iPhone with a stylish and sturdy Hamlet-themed wallet. Full access to camera, buttons and ports.">
+	<meta name="twitter:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/apple-iphone-wallets.png">
+	
 	<style>
 
-	@media (min-width:768px) { 
-		header { background-image: url('bg-sleeve-desktop.jpg') }
-		header h1, header h2 { max-width: 70% }
-	}
-	@media (max-width:767px) { 
-		header { background-image: url('bg-sleeve-mobile.jpg') } 
-		header h2 { padding: 12px 20px 12px 20px }
-		header h1 { margin-bottom: 10% }
-	}
-	
-	header h1 { font-size: calc(44px + (72 - 44) * ((100vw - 320px) / (1600 - 320))) }
+		@media (min-width: 768px) { header { background-image: url('bg-phone-wallet-desktop.jpg') } }
+		@media (max-width: 767px) { 
+			header { background-image: url('bg-phone-wallet-mobile.jpg') }
+			header h1 { margin-bottom: 10% }
+		}
 
 	</style>
+
 
 </head>
 
@@ -94,7 +89,7 @@
 	 <!-- Begin mobile menu bar -->
 	 <div class="container-menu-bar-mobile">
 		<!-- first child -->
-		<a href="../"><img src="../assets/img/website-logo-mobile.png" alt="website logo"></a>  
+		<a href="#"><img src="../assets/img/website-logo-mobile.png" alt="website logo"></a>  
 		<!-- second child -->
 		<div class="item-icon">
 			<div class="bar1"></div>
@@ -131,101 +126,107 @@
 	<!-- End mobile menu slide-out options -->
 
 
-
 	<header>
-		<h1>Laptop Sleeves</h1>
-		<h2>Stylish. Sturdy. Shakespearean.</h2>
+		<h1><em>Hamlet</em> iPhone Wallets</h1>
+		<h2>Sturdy. Stylish. Shakespearean.</h2>
 	</header>
+
+
 
 	<main>
 	<article>
 
+
 	<section class="intro">
-		<p><span>&#8220;</span>&nbsp;The thousand natural shocks that flesh is heir to.&nbsp;<span>&#8221;</span></p>
-		<p><em>Hamlet</em>: Act 3, Scene i.</p>
+		<p><span>&#8220;</span>&nbsp;Speak; I am bound to hear.&nbsp;<span>&#8221;</span></p>
+		<p><em>Hamlet</em>: Act 1, Scene v.</p>
 	</section>
 
 	<section class="product">
-		<h3>Hamlet Apple Laptop Sleeves</h3>
-		<p class="description">For Apple Macbook, MacBook Air and Macbook Pro laptops. Custom print on front. Black on rear. Polyester fabric with protective foam padding on inside. Black edging and zip. Vivid styles and vibrant colors.</p>
 
-		<p class="price">Prices from: <b>&euro;32.00</b></p>
+		<h3>Apple iPhone Wallets</h3>
+
+		<p class="description">Open book style with built-in stand and elastic strap closure. Full access to camera, buttons and ports. iPhone 6 & 6s wallet holds two credit cards; 6 Plus & 6s Plus holds three. Easy to clean with a damp cloth.</p>
+
+		<p class="price">Prices from: <b>&euro;35.00</b></p>
 	</section>
 
 
 	<div class="flex-4-2">
-			<a class="col-gutter"  target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fthegingerimp%2Fworks%2F15012050%2Dabstract%2Dstill%2Dlife%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D15%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-abstract.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Abstract Painting">
-				<h3><em>Hamlet</em>: Abstract</h3>
+
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Flaurenpunales%2Fworks%2F26153021%2Dyorick%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D103%26p%3Diphone%2Dwallet%26rbs%3Df57ccb61%2D6cef%2D4543%2Dad0d%2Db9dc16580588%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet%22&afftrack=">
+				<img src="phone-wallet-yorick-blue.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Yorick's Skull">
+				<h3>Yorick&#8217;s Skull</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fledbytheunknown%2Fworks%2F26878653%2Dcontemplative%2Dprince%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D139%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-andrew-scott.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Andrew Scott">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fjohnnyvu%2Fworks%2F35285999%2Dvillainy%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D65%26p%3Diphone%2Dwallet%26rbs%3Df57ccb61%2D6cef%2D4543%2Dad0d%2Db9dc16580588%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-villiany.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Villiany">
+				<h3><em>Hamlet</em> Villiany</h3>
+			</a>
+
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fredhandedrobyn%2Fworks%2F31520422%2Dsassy%2Dshakespeare%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D72%26p%3Diphone%2Dwallet%26rbs%3Df57ccb61%2D6cef%2D4543%2Dad0d%2Db9dc16580588%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-action-word.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Action to the word">
+				<h3><em>&#8216;Action to the word&#8217;</em></h3>
+			</a>
+
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fledbytheunknown%2Fworks%2F26878760%2Dto%2Dthine%2Down%2Dself%2Dbe%2Dtrue%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D114%26p%3Diphone%2Dwallet%26rbs%3Df57ccb61%2D6cef%2D4543%2Dad0d%2Db9dc16580588%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-andrew-scott.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Andrew Scott">
 				<h3>Andrew Scott</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fbibliotee%2Fworks%2F16876854%2Dshakespeare%2Dhamlet%2D1603%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D12%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-cover.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Act I">
-				<h3><em>Hamlet</em>: Tragedy</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fkristinagale%2Fworks%2F10626157%2Dhamlet%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D40%26p%3Diphone%2Dwallet%26rbs%3Dc0de82a1%2D8179%2D44e9%2Daaca%2D4f46b9311d99%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-piggy.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Piggy">
+				<h3><em>Hamlet</em> piggy</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fparefdalaokqas%2Fworks%2F37467907%2Dhamlet%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D31%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=s">
-				<img src="sleeve-cumberbatch.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Benedict Cumberbatch">
-				<h3>Benedict Cumberbatch</h3>
-			</a>
-
-			<a class="col-gutter" target="_blank"  rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fshakespearegeek%2Fworks%2F29182437%2Dhamlet%2Dshakespeare%2Dstraight%2Doutta%2Delsinore%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D200%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-elsinore.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Straight Outta Elsinore">
-				<h3>Straight Outta Elsinore</h3>
-			</a>
-
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fkissmypegs%2Fworks%2F28070901%2Dhamlet%2Dhiddleston%2Dlove%2Db%2Dw%2Dv2%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D299%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-hiddleston.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Tom Hiddleston">
-				<h3>Tom Hiddleston</h3>
-			</a>
-
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fvonplatypus%2Fworks%2F5848567%2Dhamlets%2Ddilemma%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D190%26p%3Dlaptop%2Dsleeve%26rbs%3Da561398e%2D5659%2D4423%2Da037%2Dd68eb268105a%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack==">
-				<img src="sleeve-piggy.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Piggy">
-				<h3><em>Hamlet</em>: Piggy</h3>
-			</a>
-
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Finsecondsflat%2Fworks%2F25282223%2Dhamlet%2Dtitle%2Dart%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D81%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-red.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Red Skull">
-				<h3><em>Hamlet</em>: Skull on Red</h3>
-			</a>
-
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Flaurenpunales%2Fworks%2F26153021%2Dyorick%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D134%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet%23%26gid%3D1%26pid%3D1&afftrack=">
-				<img src="sleeve-yorick-skull.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Yorick's Skull">
-				<h3><em>Hamlet</em>: Crown on Blue Skull</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fchandlerlasch%2Fworks%2F16217266%2Dhamlet%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D51%26p%3Diphone%2Dwallet%26rbs%3Dac62bfce%2D6a1c%2D45bc%2D9e4c%2D7b6e17b7e6e2%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-to-be.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: To be ...">
+				<h3><em>Hamlet: &#8216;To be ...&#8217;</em></h3>
 			</a>
 
 
-			<a class="col-gutter" target="_blank"  rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fjohnnyvu%2Fworks%2F35285999%2Dvillainy%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D88%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-villainy.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Villainy">
-				<h3><em>Hamlet</em>: Villainy</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fbuythebook86%2Fworks%2F33542754%2Dhamlet%2Dwilliam%2Dshakespeare%2Dfirst%2Dpage%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D58%26p%3Diphone%2Dwallet%26rbs%3D45854839%2D1f2b%2D4f60%2D8ef6%2Df083062428ff%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-act-one.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Front">
+				<h3><em>Hamlet</em> Act 1</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fjohnnyvu%2Fworks%2F35285999%2Dvillainy%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D88%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-warhol.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Andy Warhol">
-				<h3>Shakespeare Pop-Art</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fdeepfriedpaint%2Fworks%2F23917326%2Dophelia%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D2%26p%3Diphone%2Dwallet%26rbs%3Df0a41b5e%2D8ccf%2D48b3%2Da4f2%2Db7ab549fbdcc%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520ophelia&afftrack=">
+				<img src="phone-wallet-ophelia-flowers.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Ophelia flowers">
+				<h3>Ophelia Flowers</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Felkin%2Fworks%2F34491501%2Dtrollhunters%2Dclaire%2Dnunez%2Dhamlet%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D246%26p%3Dlaptop%2Dsleeve%26rbs%3D9f3f15bd%2Def9b%2D4f45%2D9ed1%2Dc4d59cf39f01%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dsleeves%2520hamlet&afftrack=">
-				<img src="sleeve-purple.jpg" class="img-fluid" alt="Hamlet Apple Laptop Sleeve: Purple Skull">
-				<h3><em>Hamlet</em>: Purple</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fscardesign11%2Fworks%2F12616293%2Dhamlet%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D9%26p%3Diphone%2Dwallet%26rbs%3Ddef6a24b%2D47cc%2D4996%2Db23b%2D62e7d07d17b0%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-blue.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Blue">
+				<h3><em>Hamlet</em> Blue</h3>
 			</a>
 
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fafterblossom%2Fworks%2F31221465%2Dhamlet%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D29%26p%3Diphone%2Dwallet%26rbs%3D5ae712ca%2D4d82%2D40be%2D8fdb%2Dc46675716433%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-sketch.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: To be ...">
+				<h3><em>Hamlet</em> Sketch</h3>
+			</a>
+
+
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fsketchadoodel%2Fworks%2F33007294%2Dhamlet%2Ddesign%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D127%26p%3Diphone%2Dwallet%26rbs%3Dc9369602%2D4e83%2D4a72%2Db55a%2D62f171719673%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-purple.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Front">
+				<h3><em>Hamlet</em> Purple</h3>
+			</a>
+
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fhamaginations%2Fworks%2F29686623%2Dophelia%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D180%26p%3Diphone%2Dwallet%26rbs%3Dc9369602%2D4e83%2D4a72%2Db55a%2D62f171719673%26ref%3Dshop%5Fgrid%26searchTerm%3Diphone%2Dwallets%2520hamlet&afftrack=">
+				<img src="phone-wallet-ophelia-pink.jpg" class="img-fluid" alt="Hamlet iPhone Wallet: Ophelia flowers">
+				<h3>Ophelia Pink</h3>
+			</a>
 	</div><!--- /flex-grid -->
 
 
 	<section class="details">
-		<a class="full-range" href="https://www.redbubble.com/shop/laptop-sleeves+hamlet?ref=search_box" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
 
-		<p class="description">All laptop sleeves feature original designs created by artists. Ethically sourced. Fast delivery. No-quibble 90-day refunds. Store powered by <a href="#">RedBubble</a>.</p>
+		<a class="full-range" href="https://www.redbubble.com/shop/iphone-wallets+hamlet?ref=search_box" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
+
+		<p class="description">All wallets feature original designs created by artists. Ethically sourced. Fast delivery. No-quibble 90-day refunds. Store powered by <a href="#">RedBubble</a>.</p>
 
 		<a href="../" class="swag-home"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Back to Hamlet Swag Store Home</a>
-	</section>
 
+	</section>
 
 </article>
 </main>
@@ -235,7 +236,7 @@
 			<h2>About</h2>
 			<p>Supporting the original designs of independent artists and serving the world with quality, hand-picked <i>Hamlet</i>-themed merchandise.</p>
 			<p>Headquartered in the beautiful village of <a href="https://en.wikipedia.org/wiki/Mooncoin" target="_blank">Mooncoin</a>, County Kilkenny, Ireland.</p>
-			<p><i class="far fa-comment"></i> &nbsp;<a href="contact/">Say Hello</a></p>
+			<p><i class="far fa-comment"></i> &nbsp;<a href="../contact/">Say Hello</a></p>
 		</div>
 
 		<div class="col">
