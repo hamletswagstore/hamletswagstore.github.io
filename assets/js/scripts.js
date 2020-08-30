@@ -100,17 +100,19 @@ document.addEventListener('click', function (event) {
 function setCookie(name,value,days) {
     var expires = "";
     if (days) {
-        // var date = new Date();
-        // date.setTime(date.getTime() + (days*24*60*60*1000));
-        // expires = "; expires=" + date.toUTCString();
-
         var date = new Date();
+        //days = days || 365;
+        // date.setTime(date.getTime() + (days*24*60*60*1000));
+        date.setTime(date.getTime() + (days*86400000)); //24 * 60 * 60 * 1000
+        expires = "; expires=" + date.toUTCString();
+
+        //var date = new Date();
         // Default at 365 days.
-        days = days || 365;
+        //days = days || 365;
         // Get unix milliseconds at current time plus number of days
-        date.setTime(+ date + (days * 86400000)); //24 * 60 * 60 * 1000
-        window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
-        return value;
+        //date.setTime(+ date + (days * 86400000)); //24 * 60 * 60 * 1000
+        //window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
+        //return value;
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
