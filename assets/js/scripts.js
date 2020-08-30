@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
 }, false);
 
 function checkCookie() {
-    const x = getCookie('Elsinore99');
+    const x = getCookie('Elsinore');
     if (x) {
         // console.log("Cookie here");
         return;
@@ -101,34 +101,11 @@ function setCookie(name,value,days) {
     var expires = "";
     if (days) {
         var date = new Date();
-        //days = days || 365;
-        // date.setTime(date.getTime() + (days*24*60*60*1000));
         date.setTime(date.getTime() + (days*86400000)); //24 * 60 * 60 * 1000
         expires = "; expires=" + date.toUTCString();
-
-        //var date = new Date();
-        // Default at 365 days.
-        //days = days || 365;
-        // Get unix milliseconds at current time plus number of days
-        //date.setTime(+ date + (days * 86400000)); //24 * 60 * 60 * 1000
-        //window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
-        //return value;
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
-
-
-function display() { 
-    var now = new Date();
-    var time = now.getTime();
-    var expireTime = time + 1000*36000;
-    now.setTime(expireTime);
-    var tempExp = 'Wed, 31 Oct 2012 08:50:17 GMT';
-    // document.cookie = 'cookie=ok;expires='+now.toUTCString()+';path=/';
-    document.cookie = 'cookie=ok;expires='+now.toGMTString()+';path=/';
-    //console.log(document.cookie);
-  }
-
 
 function closeCookieMessage() {
     var modal = document.getElementById("myModal");
