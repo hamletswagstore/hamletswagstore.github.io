@@ -1,8 +1,7 @@
 
+// ======== CODE FOR HANDLING OFF-CANVAS, FLYOUT MENUS ======== 
 
-/* CODE FOR HANDLING OFF-CANVAS, FLYOUT MENUS */
-
-// Code to show/hide fly-out mobile menu -->
+// Show/hide fly-out mobile menu -->
 document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
    
 function toggleMobileMenu() {
@@ -54,7 +53,7 @@ let specifiedElement = document.querySelector('.flyout-menu');
     }
 );
 
-// Mobile Menus *****************************
+// ======== CODE FOR COOKE POP-UP MESSAGE ========
 
 document.addEventListener('DOMContentLoaded', function() {
     checkCookie();
@@ -63,12 +62,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function checkCookie() {
     const x = getCookie('Elsinore99');
     if (x) {
-        // do something with x
-        console.log("Cookie here");
+        // console.log("Cookie here");
         return;
     }
     else {
-        console.log("No cookie here"); 
+        // console.log("No cookie here"); 
         displayCookieMessage();       
     }
 }
@@ -102,26 +100,45 @@ document.addEventListener('click', function (event) {
 function setCookie(name,value,days) {
     var expires = "";
     if (days) {
+        // var date = new Date();
+        // date.setTime(date.getTime() + (days*24*60*60*1000));
+        // expires = "; expires=" + date.toUTCString();
+
         var date = new Date();
-        date.setTime(date.getTime() + (days*24*60*60*1000));
-        expires = "; expires=" + date.toUTCString();
+        // Default at 365 days.
+        days = days || 365;
+        // Get unix milliseconds at current time plus number of days
+        date.setTime(+ date + (days * 86400000)); //24 * 60 * 60 * 1000
+        window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
+        return value;
     }
     document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
 
+
+function display() { 
+    var now = new Date();
+    var time = now.getTime();
+    var expireTime = time + 1000*36000;
+    now.setTime(expireTime);
+    var tempExp = 'Wed, 31 Oct 2012 08:50:17 GMT';
+    // document.cookie = 'cookie=ok;expires='+now.toUTCString()+';path=/';
+    document.cookie = 'cookie=ok;expires='+now.toGMTString()+';path=/';
+    //console.log(document.cookie);
+  }
+
+
 function closeCookieMessage() {
     var modal = document.getElementById("myModal");
-    //var modal = document.getElementsByClassName("modal-content");
-   
     modal.classList.add('slide-out-top');
-    //modal.style.display = "none";
 }
 
 function eraseCookie(name) {   
     document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
 
-// Smooth scroll ********************************
+
+// ============== CODE FOR SMOOTH SCROLLNG EFFECT ========= 
 window.onscroll = function() {ToggleBackToHome()};
 const UpArrow = document.querySelector('.back-to-top');
 const stickyUpArrow = UpArrow.offsetTop +400;
