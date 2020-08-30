@@ -9,7 +9,7 @@
 	<title>Hamlet-themed Tote Bags | Hamlet Swag Store</title>
 	<meta name="description" content="Bard-inspired tote bags for your stuff. Gorgeous Hamlet-themed designs. Super sturdy, with woven straps. Machine washable.">
 
-	<link href="../assets/img/hamlet-essaykit-com-icon-200x200.png" rel="shortcut icon">
+	<link href="../assets/img/favicon-200x200.png" rel="shortcut icon">
 
 	<link rel="stylesheet" href="../assets/css/hamlet-swag-store.css">
 	
@@ -19,19 +19,19 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
 
 	<meta name="author" content="Brendan Munnelly">
-	<link rel="canonical" href="https://www.hamletswagstore.com/tote-bags" />
+	<link rel="canonical" href="https://hamletswagstore.com/tote-bags" />
 	
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Hamlet-themed Tote Bags | Hamlet Swag Store" />
-	<meta property="og:url" content="https://www.hamletswagstore.com/" />
+	<meta property="og:url" content="https://hamletswagstore.com/" />
 	<meta property="og:site_name" content="Hamlet Swag Store" />
-	<meta property="og:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/tote-bags.png" />
+	<meta property="og:image" content="https://hamletswagstore.com/assets/img/twitter-cards/tote-bags.png" />
 
 	<meta name="twitter:site" content="@essaykit">
 	<meta name="twitter:creator" content="@essaykit">
 	<meta name="twitter:title" content="Hamlet-themed Tote Bags | Hamlet Swag Store">
 	<meta name="twitter:description" content="Bard-inspired, Hamlet-themed tote bags for your stuff. Super sturdy. Machine washable.">
-	<meta name="twitter:image" content="https://www.hamletswagstore.com/assets/img/twitter-cards/tote-bags.png">
+	<meta name="twitter:image" content="https://hamletswagstore.com/assets/img/twitter-cards/tote-bags.png">
 
 
 	<style>
@@ -141,12 +141,12 @@
 		<article>
 
 		<section class="intro">
-			<p><span>&#8220;</span> I could be bounded in a nutshell, and count myself a king of infinite space. <span>&#8221;</span></p>
-			<p><em>Hamlet</em>: Act 2, Scene ii.</p>
+			<p><span>&#8220;</span>&nbsp;I could be bounded in a nutshell, and count myself a king of infinite space.&nbsp;<span>&#8221;</span></p>
+			<p><em>Hamlet</em>: Act II, Scene ii.</p>
 		</section>
 
 		<section class="product">
-			<h3>Hamlet Tote Bags</h3>
+			<h3><em>Hamlet</em> Tote Bags</h3>
 			<p class="description">Design printed on both sides. Soft yet hard-wearing poly poplin fabric. Super-strong, 1 inch-wide cotton shoulder straps. Machine-washable. Choose from small, medium or large sizes.</p>
 			<p class="price">Prices from: <b>&euro;14.00</b></p>
 			<div><p class="special-offer">Buy 2 and get 15% off</p></div>
