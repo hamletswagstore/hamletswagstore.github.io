@@ -103,8 +103,9 @@ function setCookie(name,value,days) {
         var date = new Date();
         date.setTime(date.getTime() + (days*86400000)); //24 * 60 * 60 * 1000
         expires = "; expires=" + date.toUTCString();
+        document.cookie = 'cross-site-cookie=bar; SameSite=Strict';
     }
-    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    document.cookie = document.cookie + name + "=" + (value || "")  + expires + "; path=/";
 }
 
 function closeCookieMessage() {
