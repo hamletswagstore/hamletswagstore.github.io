@@ -47,6 +47,15 @@
 
 	</style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176791170-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-176791170-1');
+	</script>
 
 </head>
 
@@ -210,9 +219,9 @@
 				<h3>Tom Hiddleston</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fhologarithm%2Fworks%2F23169289%2Dwilliam%2Dshakespeare%3Fcat%5Fcontext%3Dwomen%2Dclothes%26grid%5Fpos%3D22%26p%3Dscarf%26rbs%3D869697f7%2D1f36%2D4828%2D9b32%2D85293cfcd739%26ref%3Dshop%5Fgrid%26searchTerm%3Dscarves%2520hamlet&afftrack=">
-				<img src="scarf-shakespeare.jpg" alt="Hamlet Scarf: Shakespeare">
-				<h3>William Shakespeare</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/scarf/Hamlet-Doubt-the-stars-love-quote-by-rubyandpearl/21174936.B15PI">
+				<img src="scarf-ophelia-quote.jpg" alt="Hamlet Scarf: Letter to Ophelia">
+				<h3>Letter to Ophelia</h3>
 			</a>
 
 			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fscardesign11%2Fworks%2F12616293%2Dhamlet%3Fcat%5Fcontext%3Dwomen%2Dclothes%26grid%5Fpos%3D28%26p%3Dscarf%26rbs%3D0774310e%2D91e8%2D4422%2Dae4e%2D89a09333ec27%26ref%3Dshop%5Fgrid%26searchTerm%3Dscarves%2520hamlet&afftrack=">
