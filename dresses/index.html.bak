@@ -40,6 +40,15 @@
 
 	</style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176791170-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-176791170-1');
+	</script>
 
 
 </head>
@@ -163,9 +172,9 @@
 				<h3><em>Hamlet</em> Text</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fcliffordhayes%2Fworks%2F21664179%2Dwilliam%2Dshakespeare%3Fcat%5Fcontext%3Dw%2Ddresses%26grid%5Fpos%3D3%26p%3Da%2Dline%2Ddress%26rbs%3Dd8c9a230%2D14e6%2D4602%2D81f2%2D644e0ee2b328%26ref%3Dshop%5Fgrid%26searchTerm%3Da%2Dline%2Ddresses%2520hamlet&afftrack=">
-				<img src="dress-pop-art.jpg" class="img-fluid" alt="Hamlet A-Line Dresses: Shakespeare Pop-Art">
-				<h3>Shakespeare Pop-Art</h3>
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/dress/Shakespeare-Plays-by-Montage-Madness/44230631.V4WQ8">
+				<img src="dress-shakespeares-plays.jpg" class="img-fluid" alt="Hamlet A-Line Dresses: Shakespeare's Plays">
+				<h3>Shakespeare&#8217;s Plays</h3>
 			</a>
 
 			<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fledbytheunknown%2Fworks%2F32783071%2Dto%2Dthy%2Down%2Dself%2Dbe%2Dtrue%3Fcat%5Fcontext%3Dw%2Ddresses%26grid%5Fpos%3D44%26p%3Da%2Dline%2Ddress%26rbs%3De0136156%2Dc91b%2D4992%2D9b6d%2D98c39d5a4525%26ref%3Dshop%5Fgrid%26searchTerm%3Da%2Dline%2Ddresses%2520hamlet&afftrack=">
