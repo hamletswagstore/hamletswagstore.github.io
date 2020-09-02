@@ -38,6 +38,16 @@
 	@media (min-width:768px) { header { background-image: url('../privacy/bg-privacy-desktop.jpg') } }
 	</style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176791170-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-176791170-1');
+	</script>
+
 </head>
 
 <body>
@@ -68,7 +78,7 @@
 		<div class="col">
 			<div class="menu-desktop-inner">
 				<div class="col">
-					<p><a href="../apple-laptop-skins">Apple Laptop <br>Skins</a></p>
+					<p><a href="../apple-laptop-skins">Apple & PC <br>Laptop Skins</a></p>
 					<p><a href="../apple-laptop-sleeves">Apple Laptop <br>Sleeves</a></p>
 				</div>	
 				<div class="col">
@@ -104,8 +114,8 @@
 			<li><a href="../hoodies/" title="Hamlet Swag Store: Hoodies & Sweatshirts">Hoodies & Sweatshirts</a></li>
 			<li><a href="../dresses/" title="Hamlet Swag Store: Dresses">Dramatic Dresses</a></li>
 			<li><a href="../leggings/" title="Hamlet Swag Store: Leggings">Leggings</a></li>
-			<li><a href="../phone-cases/" title="Hamlet Swag Store: Apple and Samsung Phone Cases">Apple and Samsung <br>Phone Cases</a></li>
-			<li><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple Laptop Skins">Apple Laptop Skins</a></li>
+			<li><a href="../phone-cases/" title="Hamlet Swag Store: Apple and Samsung <br>Phone Cases">Apple and Samsung <br>Phone Cases</a></li>
+			<li><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple and PC <br>Laptop Skins">Apple and PC <br>Laptop Skins</a></li>
 			<li><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store: Apple Laptop Sleeves">Apple Laptop Sleeves</a></li>
 			<li><a href="../apple-iphone-wallets/" title="Hamlet Swag Store: Apple iPhone Wallets">Apple iPhone Wallets</a></li>
 			<li><a href="../tote-bags/" title="Hamlet Swag Store: Tote Bags">Theatrical Tote Bags</a></li>
@@ -150,86 +160,86 @@
 
 	<div class="flex-4-2">
 
-			<a class="col-gutter"  target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/The-Plague-s-the-Thing-by-ArtToons/45587953.9G0D8">
+			<a class="col-gutter"  target="_blank" rel="noopener" href="https://shrsl.com/2h3cn">
 				<img src="fm-plague.jpg" alt="Hamlet Face Masks: The plague's the thing">
 				<h3>The plague&#8217;s the thing</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Words-words-words-William-Shakespeare-by-hojo76/50095039.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3cp">
 				<img src="fm-words.jpg" alt="Hamlet Face Masks: Words, words, words">
 				<h3><em>&#8220;Words, words, words.&#8221;</em></h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Ophelia-Oil-Painting-by-Sir-John-Everett-Millais-Hamlet-Play-by-podartist/28296555.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3cr">
 				<img src="fm-ophelia.jpg" alt="Hamlet Face Masks: Ophelia Painting">
 				<h3>Ophelia Painting</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Shakespeare-by-QuintaVale/49376627.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3ct">
 				<img src="fm-ophelia-quote.jpg" alt="Hamlet Face Masks: Ophelia Quotation">
 				<h3>Ophelia Quotation</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank"  rel="noopener" href="https://www.redbubble.com/i/mask/William-Shakespeare-The-Bard-by-ArtyMargit/21339982.9G0D8">
+			<a class="col-gutter" target="_blank"  rel="noopener" href="https://shrsl.com/2h3cu">
 				<img src="fm-bard.jpg" alt="Hamlet Face Masks: Shakespeare Pattern">
 				<h3>Shakespeare Pattern</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Shakespeare-by-QuintaVale/49373112.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3cw">
 				<img src="fm-hell-empty.jpg" alt="Hamlet Face Masks: Hell is empty">
 				<h3><em>&#8220;Hell is empty&#8221;</em></h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Shakespeare-Gifts-Shakespeare-Will-Power-Funny-Gift-Ideas-with-Classic-William-Shakespeare-Portrait-for-Teacher-and-Bard-Lover-by-merkraht/23914322.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3cx">
 				<img src="fm-shakespeare.jpg" alt="Hamlet Face Masks: Shakespeare Portrait">
 				<h3>Shakespeare Portrait</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Hamlet-mask-064-by-Squiz66/47678838.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3cy">
 				<img src="fm-to-be.jpg" alt="Hamlet Face Masks: To be not ...">
 				<h3><em>&#8220;To be not ...&#8221;</em></h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Breathe-Contagion-To-This-World-White-on-Black-Hamlet-by-Shakespeare-by-ShakespeareGeek/47856040.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3cz">
 				<img src="fm-contagion.jpg" alt="Hamlet Face Masks: Contagion to this world">
 				<h3><em>&#8220;Contagion to this world.&#8221;</em></h3>
 			</a>
 
 
-			<a class="col-gutter" target="_blank"  rel="noopener" href="https://www.redbubble.com/i/mask/Lego-Shakespeare-by-EatingTheWord/34445235.9G0D8">
+			<a class="col-gutter" target="_blank"  rel="noopener" href="https://shrsl.com/2h3d1">
 				<img src="fm-lego.jpg" alt="Hamlet Face Masks: Shakespeare Lego">
 				<h3>Shakespeare Lego</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/William-Shakespeare-HAMLET-Prince-of-Denmark-by-escees/50513921.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3d3">
 				<img src="fm-ghost.jpg" alt="Hamlet Face Masks: King Hamlet's Ghost">
 				<h3>King Hamlet&#8217;s Ghost</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/Hamlet-by-scardesign11/12616293.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3d4">
 				<img src="fm-hamlet-blue.jpg" alt="Hamlet Face Masks: Blue on Red">
 				<h3><em>Hamlet</em>: Blue on Red</h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/ALAS-POOR-YORICK-by-TheOldGeekShop/33793806.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3d6">
 				<img src="fm-yorick.jpg" alt="Hamlet Face Masks: Yorick's Skull">
 				<h3><em>&#8220;Alas, poor Yorick&#8221;</em></h3>
 			</a>
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/I-Heart-Shakespeare-by-ShakespeareGeek/32760936.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3d7">
 				<img src="fm-love-shakespeare.jpg" alt="Hamlet Face Masks: Love Shakespeare">
 				<h3>Love Shakespeare</h3>
 			</a>
 
 
-			<a class="col-gutter" target="_blank"  rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fart%2Dmatters%2Fworks%2F33770693%2Dophelia%2Djohn%2De%2Dmillais%3Fcat%5Fcontext%3Du%2Ddevice%2Dcases%26grid%5Fpos%3D157%26p%3Dlaptop%2Dskin%26rbs%3D52532d03%2D9d2b%2D4dd1%2D9f5c%2D6d20c504f836%26ref%3Dshop%5Fgrid%26searchTerm%3Dlaptop%2Dskins%2520ophelia&afftrack=">
-				<img src="fm-doubt.jpg" alt="Hamlet Face Masks: Letter to Ophelia">
-				<h3>Letter to Ophelia</h3>
+			<a class="col-gutter" target="_blank"  rel="noopener" href="https://www.redbubble.com/i/mask/All-my-sins-remembered-by-EachPage/51532336.9G0D8">
+				<img src="fm-doubt.jpg" alt="Hamlet Face Masks: All my sins">
+				<h3><em>&#8220;All my sins&#8221;</em></h3>
 			</a>
 
 
 
-			<a class="col-gutter" target="_blank" rel="noopener" href="https://www.redbubble.com/i/mask/I-Put-The-LIT-In-Literature-by-mensijazavcevic/28262982.9G0D8">
+			<a class="col-gutter" target="_blank" rel="noopener" href="https://shrsl.com/2h3df">
 				<img src="fm-lit.jpg" alt="Hamlet Face Masks">
 				<h3>The &#8216;Lit&#8217; in Literature</h3>
 			</a>
@@ -241,7 +251,7 @@
 
 
 	<section class="details">
-		<a class="full-range" href="https://www.redbubble.com/shop/laptop-skins+hamlet?page=2&ref=search_box" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
+		<a class="full-range" href="https://shrsl.com/2h3de" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
 
 		<p class="description">All face masks feature original designs created by artists. Ethically sourced. Fast delivery. No-quibble 14-day refunds. Store powered by <a href="#">RedBubble</a>.</p>
 
@@ -275,7 +285,7 @@
 
 				<div class="col">
 					<p><a href="../phone-cases/">Apple and Samsung <br>Phone Cases</a></p>
-					<p><a href="../apple-laptop-skins/">Apple Laptop Skins</a></p>
+					<p><a href="../apple-laptop-skins/">Apple and PC <br>Laptop Skins</a></p>
 					<p><a href="../apple-laptop-sleeves/">Apple Laptop Sleeves</a></p>
 					<p><a href="../apple-iphone-wallets/">Apple iPhone Wallets</a></p>
 				</div>
