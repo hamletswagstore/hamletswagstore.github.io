@@ -45,6 +45,16 @@
 
 </style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176791170-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-176791170-1');
+	</script>
+
 </head>
 
 <body>
@@ -84,7 +94,7 @@
 				</div>	
 				<div class="col">
 					<p><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store">Apple Laptop <br>Sleeves</a></p>
-					<p><a href="../apple-laptop-skins/" title="Hamlet Swag Store">Apple Laptop <br>Skins</a></p>
+					<p><a href="../apple-laptop-skins/" title="Hamlet Swag Store">Apple & PC <br>Laptop Skins</a></p>
 				</div>
 			</div>
 		</div>
@@ -111,8 +121,8 @@
 			<li><a href="../hoodies/" title="Hamlet Swag Store: Hoodies & Sweatshirts">Hoodies & Sweatshirts</a></li>
 			<li><a href="../dresses/" title="Hamlet Swag Store: Dresses">Dramatic Dresses</a></li>
 			<li><a href="../leggings/" title="Hamlet Swag Store: Leggings">Leggings</a></li>
-			<li><a href="../phone-cases/" title="Hamlet Swag Store: Apple and Samsung Phone Cases">Apple and Samsung <br>Phone Cases</a></li>
-			<li><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple Laptop Skins">Apple Laptop Skins</a></li>
+			<li><a href="../phone-cases/" title="Hamlet Swag Store: Apple and Samsung <br>Phone Cases">Apple and Samsung <br>Phone Cases</a></li>
+			<li><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple and PC <br>Laptop Skins">Apple and PC <br>Laptop Skins</a></li>
 			<li><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store: Apple Laptop Sleeves">Apple Laptop Sleeves</a></li>
 			<li><a href="../apple-iphone-wallets/" title="Hamlet Swag Store: Apple iPhone Wallets">Apple iPhone Wallets</a></li>
 			<li><a href="../tote-bags/" title="Hamlet Swag Store: Tote Bags">Theatrical Tote Bags</a></li>
@@ -167,7 +177,7 @@
 
 				<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fgoldenslipper%2Fworks%2F32486380%2Dshakespeare%2Dmadness%2Dmethod%2Dquote%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D47%26p%3Dtote%2Dbag%26rbs%3D207a5bb5%2D13dc%2D431c%2Db89b%2D8caf53f1e532%26ref%3Dshop%5Fgrid%26searchTerm%3Dtote%2Dbags%2520hamlet&afftrack=">
 					<img src="hamlet-tote-bag-madness-method.jpg"  alt="Hamlet Tote Bag: Method in madness">
-					<h3><em>&#8216;Method in madness&#8217;</em></h3>
+					<h3><em>&#8220;Method in madness&#8221;</em></h3>
 				</a>
 
 				<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fmadisredacted%2Fworks%2F29125336%2Dophelia%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D94%26p%3Dtote%2Dbag%26rbs%3Db7d482ff%2D5913%2D4f34%2D893a%2D0fda6bc708dc%26ref%3Dshop%5Fgrid%26searchTerm%3Dtote%2Dbags%2520hamlet&afftrack=">
@@ -188,17 +198,17 @@
 
 				<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fpumpkinstrudel%2Fworks%2F26391088%2Dhamlet%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D103%26p%3Dtote%2Dbag%26rbs%3Dbd94bd5c%2Dd6bd%2D4407%2Db682%2Ddb2a85e2a485%26ref%3Dshop%5Fgrid%26searchTerm%3Dtote%2Dbags%2520hamlet&afftrack=">
 					<img src="hamlet-tote-bag-cruel-to-be-kind.jpg"  alt="Hamlet Tote Bag: Cruel to be kind">
-					<h3><em>&#8216;Cruel to be kind&#8217;</em></h3>
+					<h3><em>&#8220;Cruel to be kind&#8221;</em></h3>
 				</a>
 
 				<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fmrsthornton%2Fworks%2F12124288%2Dshakespeare%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D33%26p%3Dtote%2Dbag%26rbs%3D0429ec8f%2D1218%2D4184%2D8742%2Dc444f84f0030%26ref%3Dshop%5Fgrid%26searchTerm%3Dtote%2Dbags%2520hamlet&afftrack=">
 					<img src="hamlet-tote-bag-thine-own-self.jpg"  alt="Hamlet Tote Bag: To thine own self">
-					<h3><em>&#8216;To thine own self...&#8217;</em></h3>
+					<h3><em>&#8220;To thine own self...&#8221;</em></h3>
 				</a>
 
 				<a class="col-gutter" target="_blank" rel="noopener" href="https://shareasale.com/r.cfm?b=166090&u=2082803&m=21395&urllink=www%2Eredbubble%2Ecom%2Fpeople%2Fhannahthewriter%2Fworks%2F14254683%2Dhamlet%2Dwords%2Dwords%2Dwords%3Fcat%5Fcontext%3Du%2Dbags%26grid%5Fpos%3D12%26p%3Dtote%2Dbag%26rbs%3Dfe6e5062%2D2bd1%2D4175%2D842b%2D589f387e24c6%26ref%3Dshop%5Fgrid%26searchTerm%3Dtote%2Dbags%2520hamlet&afftrack=">
 					<img src="hamlet-tote-bag-words.jpg"  alt="Hamlet Tote Bag: Words, words, words.">
-					<h3><em>&#8216;Words, words, words.&#8217;</em></h3>
+					<h3><em>&#8220;Words, words, words.&#8221;</em></h3>
 				</a>
 
 
@@ -255,8 +265,8 @@
 				</div>
 
 				<div class="col">
-					<p><a href="../phone-cases/" title="Hamlet Swag Store: Apple and Samsung <br>Phone Cases">Apple and Samsung Phone Cases</a></p>
-					<p><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple Laptop Skins">Apple Laptop Skins</a></p>
+					<p><a href="../phone-cases/" title="Hamlet Swag Store: Apple and Samsung <br>Phone Cases">Apple and Samsung <br>Phone Cases</a></p>
+					<p><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple and PC <br>Laptop Skins">Apple and PC <br>Laptop Skins</a></p>
 					<p><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store: Apple Laptop Sleeves">Apple Laptop Sleeves</a></p>
 					<p><a href="../apple-iphone-wallets/" title="Hamlet Swag Store: Apple iPhone Wallets">Apple iPhone Wallets</a></p>
 				</div>
