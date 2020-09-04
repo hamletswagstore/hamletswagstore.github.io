@@ -165,15 +165,24 @@
 		</div>
 	</section>
 
-	<p>9999</p>
-
-
 	<script>
-		$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
-			console.log(data);
-		})
+		const Http = new XMLHttpRequest();
+		const url='https://www.cloudflare.com/cdn-cgi/trace';
+		Http.open("GET", url);
+		Http.send();
+
+		Http.onreadystatechange = (e) => {
+			var sGeoData = Http.responseText;
+			var nCoCodePos = sGeoData.indexOf("loc=");
+			var nCoCodePos1 = nCoCodePos+4;
+			var nCoCodePos2 = nCoCodePos+6;
+			var sCoCode = sGeoData.substring(nCoCodePos1, nCoCodePos2);
+			console.log("Country Code: " + sCoCode);
+			document.getElementById('result').innerHTML = sCoCode;
+		}
 
 	</script>
+	<div id="result">Result</div>
 
 	<div class="flex-4-2">
 
