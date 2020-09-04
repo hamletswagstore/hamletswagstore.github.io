@@ -167,13 +167,8 @@
 	</section>
 
 
-	<script src="”http://gd.geobytes.com/gd?after=-1&variables=GeobytesCountry,GeobytesCity”" language="”Javascript”">// <![CDATA[
-	 
-	// ]]></script><script language="”Javascript”">// <![CDATA[
-	document.write(“
-	 
-	Welcome to visitors from “+sGeobytesCity+”, “+sGeobytesCountry);
-	// ]]></script>
+	<script src="http://gd.geobytes.com/gd?after=-1&variables=GeobytesCountry,GeobytesCity"></script>
+	<script language="”Javascript”">document.write("Welcome to visitors from "+sGeobytesCity+", "+sGeobytesCountry);</script>
 
 
 	<div class="flex-4-2">
