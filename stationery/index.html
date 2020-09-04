@@ -169,20 +169,10 @@
 
 
 	<script>
-		// If your site is on Cloudflare, then you can use '/cdn-cgi/trace' instead
-		//$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
-		// console.log(data)
-		// })
+		$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+			console.log(data);
+		})
 
-		// Vanilla
-		var url = 'https://www.cloudflare.com/cdn-cgi/trace';
-		var httpRequest = new XMLHttpRequest()
-		httpRequest.onreadystatechange = function (data) {
-			console.log("Hello");
-		}
-		httpRequest.open('GET', url);
-		httpRequest.send();
-		console.log(data)
 	</script>
 
 	<div class="flex-4-2">
