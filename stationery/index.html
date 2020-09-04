@@ -38,10 +38,9 @@
 		@media (min-width:767px) { 
 			header h2 br { display: none } 
 		}
-
 	</style>
 
-	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176791170-1"></script>
@@ -167,11 +166,13 @@
 	</section>
 
 	<p>9999</p>
-<!--	<script src="http://gd.geobytes.com/gd?after=-1&variables=GeobytesCountry,GeobytesCity"></script>
-	<script>document.write("Welcome to visitors from "+sGeobytesCity+", "+sGeobytesCountry);</script> -->
+
 
 	<script>
-		console.log("Hello: "+geobytescountryid);
+		// If your site is on Cloudflare, then you can use '/cdn-cgi/trace' instead
+		$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+		console.log(data)
+		})
 	</script>
 
 	<div class="flex-4-2">
@@ -389,6 +390,6 @@
 	</div>
 	<script src="../assets/js/scripts.js"></script>
 	
-	<script src="https://geoif.geobytes.com/geoif"></script>
+
 </body>
 </html>
