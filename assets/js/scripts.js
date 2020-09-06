@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     getCountryCode();
 }, false);
 
+
 function getCountryCode() {
     const Http = new XMLHttpRequest();
     const url='https://www.cloudflare.com/cdn-cgi/trace';
@@ -34,7 +35,7 @@ function getCountryCode() {
 }
 
 function checkCookie() {
-    console.log("Now checking cookie.")
+    // console.log("Now checking cookie.")
 
     const x = getCookie('Elsinore');
     if (x) {
