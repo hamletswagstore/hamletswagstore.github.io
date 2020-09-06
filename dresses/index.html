@@ -155,7 +155,7 @@
 		<p class="description">Loose swing shape for an easy, flowy fit. Printed design on entire front and back panel. Fabric: 97% polyester, 3% elastane. Silky handfeel. Sizes: XS-XXL.</p>
 
 		<p class="price">Prices from:
-			<span id="loc-currency">&#36;</span><b><span id="loc-price">47.99</span></b>
+			<span id="loc-currency">&#36;</span><b><span id="loc-price">46.99</span></b>
 		</p>
 	</section>
 
@@ -217,7 +217,7 @@
 			<h3>Graphic T-Shirt Dresses</h3>
 			<p class="description">Loose casual fit. Fabric: 96% polyester, 4% elastane. Design printed on front. Solid color on back, sleeves and rib. Sizes: XS-XXL.</p>
 			<p class="price">Prices from:
-				<span id="loc-currency-2">&#36;</span><b><span id="loc-price-2">44.99</span></b>
+				<span id="loc-currency-2">&#36;</span><b><span id="loc-price-2">42.99</span></b>
 			</p>
 		</section>
 
@@ -381,16 +381,16 @@
 	 function updateProductPrices(sCoCode) {
 		if (sCoCode == "IE" || sCoCode == "DE" || sCoCode == "FR") {
 			document.getElementById('loc-currency').innerHTML = "&#8364;";
+			document.getElementById('loc-currency-2').innerHTML = "&#8364;";	
 			document.getElementById('loc-price').innerHTML = "49.99";
-			document.getElementById('loc-currency-2').innerHTML = "&#8364;";
 			document.getElementById('loc-price-2').innerHTML = "36.99";
 		}
 	
 		else if (sCoCode == "GB") {
 			document.getElementById('loc-currency').innerHTML = "&#163;";
-			document.getElementById('loc-price').innerHTML = "40.99";
 			document.getElementById('loc-currency-2').innerHTML = "&#163;";
-			document.getElementById('loc-price-2').innerHTML = "28.99";
+			document.getElementById('loc-price').innerHTML = "39.99";
+			document.getElementById('loc-price-2').innerHTML = "27.99";
 		}
 	
 		else if (sCoCode == "CA") {
