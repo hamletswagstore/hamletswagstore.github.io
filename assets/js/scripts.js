@@ -1,3 +1,90 @@
+// ======== CODE FOR GEO LOCATION ======== 
+
+document.addEventListener('DOMContentLoaded', function() {
+    getCountryCode();
+}, false);
+
+function getCountryCode() {
+    const Http = new XMLHttpRequest();
+    const url='https://www.cloudflare.com/cdn-cgi/trace';
+    Http.open("GET", url);
+    Http.send();
+
+    Http.onreadystatechange = (e) => {
+        if (Http.responseText === null || Http.responseText === '') {
+            // default to check cookie present 
+            checkCookie();
+        }
+        else {
+            var sGeoData = Http.responseText;
+            var nCoCodePos = sGeoData.indexOf("loc=");
+            var sCoCode = sGeoData.substring(nCoCodePos+4, nCoCodePos+6);
+            console.log(sCoCode);
+            // not US, check for cookie present
+            if (sCoCode != 'US')  {
+                checkCookie(); 
+            }
+            if (document.getElementById('loc-currency').innerHTML) {
+                updateProductPrices(sCoCode);
+            }
+        }
+    }
+}
+
+function checkCookie() {
+    const x = getCookie('Elsinore');
+    if (x) {
+        return;
+    }
+    else {
+        displayCookieMessage();       
+    }
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function displayCookieMessage() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+}
+
+// Accept cookie and close modaal
+document.addEventListener('click', function (event) {
+	if (!event.target.matches('#btnAccept')) return;
+	event.preventDefault();
+    setCookie('Elsinore','hamletswagstore.com',365);
+    closeCookieMessage();
+}, false);
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*86400000)); //24 * 60 * 60 * 1000
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function closeCookieMessage() {
+    var modal = document.getElementById("myModal");
+    modal.classList.add('slide-out-top');
+}
+
+function eraseCookie(name) {   
+    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+
 
 // ======== CODE FOR HANDLING OFF-CANVAS, FLYOUT MENUS ======== 
 
@@ -52,70 +139,6 @@ let specifiedElement = document.querySelector('.flyout-menu');
         }
     }
 );
-
-// ======== CODE FOR COOKE POP-UP MESSAGE ========
-
-document.addEventListener('DOMContentLoaded', function() {
-    checkCookie();
-}, false);
-
-function checkCookie() {
-    const x = getCookie('Elsinore');
-    if (x) {
-        // console.log("Cookie here");
-        return;
-    }
-    else {
-        // console.log("No cookie here"); 
-        displayCookieMessage();       
-    }
-}
-
-function getCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
-}
-
-function displayCookieMessage() {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "block";
-}
-
-// Accept cookie and close modaal
-document.addEventListener('click', function (event) {
-	if (!event.target.matches('#btnAccept')) return;
-	event.preventDefault();
-    // Log the clicked element in the console
-    //console.log(event.target);
-    setCookie('Elsinore','hamletswagstore.com',365);
-    closeCookieMessage();
-}, false);
-
-function setCookie(name,value,days) {
-    var expires = "";
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days*86400000)); //24 * 60 * 60 * 1000
-        expires = "; expires=" + date.toUTCString();
-        //document.cookie = 'SameSite=Secure';
-    }
-    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-}
-
-function closeCookieMessage() {
-    var modal = document.getElementById("myModal");
-    modal.classList.add('slide-out-top');
-}
-
-function eraseCookie(name) {   
-    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-}
 
 
 // ============== CODE FOR SMOOTH SCROLLNG EFFECT ========= 
