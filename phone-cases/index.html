@@ -388,6 +388,7 @@
 	<script src="../assets/js/scripts.js"></script>	
 
 	<script>
+	 function updateProductPrices(sCoCode) {
 		if (sCoCode == "IE" || sCoCode == "DE" || sCoCode == "FR") {
 			document.getElementById('loc-currency').innerHTML = "&#8364;";
 			document.getElementById('loc-price').innerHTML = "16.50";
@@ -417,7 +418,7 @@
 		}
 	
 		else { return }
-	
+	}
 	</script>
 
 </body>

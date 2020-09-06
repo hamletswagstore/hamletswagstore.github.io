@@ -386,36 +386,37 @@
 	<script src="../assets/js/scripts.js"></script>	
 	
 	<script>
-	if (sCoCode == "IE" || sCoCode == "DE" || sCoCode == "FR") {
-		document.getElementById('loc-currency').innerHTML = "&#8364;";
-		document.getElementById('loc-price').innerHTML = "9.99";
-		document.getElementById('loc-currency-2').innerHTML = "&#8364;";
-		document.getElementById('loc-price-2').innerHTML = "14.99";
+	 function updateProductPrices(sCoCode) {
+		if (sCoCode == "IE" || sCoCode == "DE" || sCoCode == "FR") {
+			document.getElementById('loc-currency').innerHTML = "&#8364;";
+			document.getElementById('loc-price').innerHTML = "9.99";
+			document.getElementById('loc-currency-2').innerHTML = "&#8364;";
+			document.getElementById('loc-price-2').innerHTML = "14.99";
+		}
+
+		else if (sCoCode == "GB") {
+			document.getElementById('loc-currency').innerHTML = "&#163;";
+			document.getElementById('loc-price').innerHTML = "9.99";
+			document.getElementById('loc-currency-2').innerHTML = "&#163;";
+			document.getElementById('loc-price-2').innerHTML = "12.99";
+		}
+
+		else if (sCoCode == "CA") {
+			document.getElementById('loc-currency').innerHTML = "CA&#36; ";
+			document.getElementById('loc-price').innerHTML = "15.99";
+			document.getElementById('loc-currency-2').innerHTML = "CA&#36; ";
+			document.getElementById('loc-price-2').innerHTML = "24.99";		
+		}
+
+		else if (sCoCode == "AU") {
+			document.getElementById('loc-currency').innerHTML = "AU&#36; ";
+			document.getElementById('loc-price').innerHTML = "14.99";
+			document.getElementById('loc-currency-2').innerHTML = "AU&#36; ";
+			document.getElementById('loc-price-2').innerHTML = "24.99";
+		}
+
+		else { return }
 	}
-
-	else if (sCoCode == "GB") {
-		document.getElementById('loc-currency').innerHTML = "&#163;";
-		document.getElementById('loc-price').innerHTML = "9.99";
-		document.getElementById('loc-currency-2').innerHTML = "&#163;";
-		document.getElementById('loc-price-2').innerHTML = "12.99";
-	}
-
-	else if (sCoCode == "CA") {
-		document.getElementById('loc-currency').innerHTML = "CA&#36; ";
-		document.getElementById('loc-price').innerHTML = "15.99";
-		document.getElementById('loc-currency-2').innerHTML = "CA&#36; ";
-		document.getElementById('loc-price-2').innerHTML = "24.99";		
-	}
-
-	else if (sCoCode == "AU") {
-		document.getElementById('loc-currency').innerHTML = "AU&#36; ";
-		document.getElementById('loc-price').innerHTML = "14.99";
-		document.getElementById('loc-currency-2').innerHTML = "AU&#36; ";
-		document.getElementById('loc-price-2').innerHTML = "24.99";
-	}
-
-	else { return }
-
 	</script>
 
 	</body>
