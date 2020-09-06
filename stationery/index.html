@@ -14,6 +14,7 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
+
 	<!-- Link to icons for Font Awesome 5 -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
 
@@ -40,8 +41,6 @@
 		}
 	</style>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176791170-1"></script>
 	<script>
@@ -61,7 +60,7 @@
 		<div class="col">
 			<div class="menu-desktop-inner">
 				<div class="col col-right">
-					<p><a href="../stationery/" title="Hamlet Swag Store">Notebooks & Journals</a></p>
+					<p><a href="../stationery/" class="current" title="Hamlet Swag Store">Notebooks & Journals</a></p>
 					<p><a href="../dresses/" title="Hamlet Swag Store">Dramatic <br> Dresses</a></p>
 				</div>	
 				<div class="col col-right">
@@ -91,7 +90,7 @@
 				</div>	
 				<div class="col">
 					<p><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store">Apple Laptop <br>Sleeves</a></p>
-					<p><a href="../apple-laptop-skins/" title="Hamlet Swag Store">Apple & PC <br>Laptop Skins</a></p>
+					<p><a href="../apple-pc-laptop-skins/" title="Hamlet Swag Store">Apple & PC <br>Laptop Skins</a></p>
 				</div>
 			</div>
 		</div>
@@ -114,12 +113,12 @@
 	<nav class="flyout-menu flyout-menu-is-closed">
 		<ul>
 			<li><a href="../face-masks/" title="Hamlet Swag Store: Face Masks">Face Masks</a> &nbsp;<sup><span>NEW</span></sup></li>
-			<li><a href="../stationery/" title="Hamlet Swag Store: Notebooks & Journals">Notebooks & Journals</a></li>
+			<li><a href="../stationery/" class="current" title="Hamlet Swag Store: Notebooks & Journals">Notebooks & Journals</a></li>
 			<li><a href="../hoodies/" title="Hamlet Swag Store: Hoodies & Sweatshirts">Hoodies & Sweatshirts</a></li>
 			<li><a href="../dresses/" title="Hamlet Swag Store: Dresses">Dramatic Dresses</a></li>
 			<li><a href="../leggings/" title="Hamlet Swag Store: Leggings">Leggings</a></li>
 			<li><a href="../phone-cases/" title="Hamlet Swag Store: Apple & Samsung <br>Phone Cases">Apple & Samsung <br>Phone Cases</a></li>
-			<li><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple & PC <br>Laptop Skins">Apple & PC <br>Laptop Skins</a></li>
+			<li><a href="../apple-pc-laptop-skins/" title="Hamlet Swag Store: Apple & PC <br>Laptop Skins">Apple & PC <br>Laptop Skins</a></li>
 			<li><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store: Apple Laptop Sleeves">Apple Laptop Sleeves</a></li>
 			<li><a href="../apple-iphone-wallets/" title="Hamlet Swag Store: Apple iPhone Wallets">Apple iPhone Wallets</a></li>
 			<li><a href="../tote-bags/" title="Hamlet Swag Store: Tote Bags">Theatrical Tote Bags</a></li>
@@ -128,7 +127,7 @@
 			<li><a href="../throws-blankets/" title="Hamlet Swag Store: Throw Blankets">Throw Blankets</a></li>
 		</ul>
 			<h4>About</h4>
-			<p>Supporting the original designs of independent artists and serving the world with quality, hand-picked <i>Hamlet</i>-themed merchandise. Powered by <a href="https://www.redbubble.com/" target="blank">RedBubble</a>. Headquartered in the beautiful village of <a href="https://en.wikipedia.org/wiki/Mooncoin" target="_blank">Mooncoin</a>, County Kilkenny, Ireland.</p>
+			<p>Supporting the original designs of independent artists and serving the world with quality, hand-picked <i>Hamlet</i>-themed merchandise. Powered by <a href="https://redbubbleus.sjv.io/joJoe" target="blank">RedBubble</a>. Headquartered in the beautiful village of <a href="https://en.wikipedia.org/wiki/Mooncoin" target="_blank">Mooncoin</a>, County Kilkenny, Ireland.</p>
 			<p><i class="far fa-comment"></i> &nbsp;<a href="../contact/">Say Hello</a></p>
 			<p><a href="../privacy/">Privacy & Legal</a></p>
 		<p>&nbsp;</p>
@@ -140,9 +139,6 @@
 		<h1><em>Hamlet</em> Stationery</h1>
 		<h2>Spiral Notebooks & <br>Hardcover Journals</h2>
 	</header>
-
-
-
 
 	<main>
 	<article>
@@ -159,30 +155,13 @@
 
 		<p class="description">All spiral notebooks include a handy document pocket inside the back cover. Choose from ruled or graph page styles. Pages: 120. Paper: 90gsm. Width: 6" (15.25 cm). Height: 8" (20.25 cm).</p>
 
-		<p class="price">Prices from: <b>&euro;10.00</b></p>
+		<p class="price">Prices from:
+			<span id="loc-currency">&#36;</span><b><span id="loc-price">11.99</span></b>
+		</p>
 		<div>
 			<p class="special-offer">Buy 2 and get 15% off</p>
 		</div>
 	</section>
-
-	<script>
-		const Http = new XMLHttpRequest();
-		const url='https://www.cloudflare.com/cdn-cgi/trace';
-		Http.open("GET", url);
-		Http.send();
-
-		Http.onreadystatechange = (e) => {
-			var sGeoData = Http.responseText;
-			var nCoCodePos = sGeoData.indexOf("loc=");
-			var nCoCodePos1 = nCoCodePos+4;
-			var nCoCodePos2 = nCoCodePos+6;
-			var sCoCode = sGeoData.substring(nCoCodePos1, nCoCodePos2);
-			console.log("Country Code: " + sCoCode);
-			document.getElementById('result').innerHTML = sCoCode;
-		}
-
-	</script>
-	<div id="result">Result</div>
 
 	<div class="flex-4-2">
 
@@ -193,7 +172,7 @@
 
 			<a class="col-gutter" target="_blank" rel="noopener" href="https://redbubbleus.sjv.io/AJj7N">
 				<img src="hamlet-spiral-hiddleston.jpg" alt="Hamlet Spiral Notebook: Tom Hiddleston Hamlet">
-				<h3>Tom Hiddleston Hamlet</h3>
+				<h3>Tom Hiddleston <em>Hamlet</em></h3>
 			</a>
 
 			<a class="col-gutter" target="_blank" rel="noopener" href="https://redbubbleus.sjv.io/M6yxJ">
@@ -213,7 +192,7 @@
 
 			<a class="col-gutter" target="_blank" rel="noopener" href="https://redbubbleus.sjv.io/eVNYX">
 				<img src="hamlet-spiral-ophelia-painting.jpg" alt="Hamlet Spiral Notebook: Ophelia drowning">
-				<h3>Ophelia drowning</h3>
+				<h3>Ophelia painting</h3>
 			</a>
 
 			<a class="col-gutter" target="_blank" rel="noopener" href="https://redbubbleus.sjv.io/P3b7R">
@@ -231,7 +210,9 @@
 
 	<section class="details">
 
-		<a class="full-range no-margin-bottom" href="https://redbubbleus.sjv.io/Qmbkx" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
+		<a class="full-range no-margin-bottom display-mobile-only" href="https://redbubbleus.sjv.io/Qmbkx" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
+
+		<a class="full-range no-margin-bottom display-desktop-only" href="https://redbubbleus.sjv.io/Qmbkx" target="_blank" rel="noopener">Shop the full collection <i class="fa fa-arrow-right"></i></a>
 
 	</section>
 
@@ -241,7 +222,10 @@
 
 		<p class="description">Design fully printed on front, spine and back covers. Choose from ruled, graph or blank page styles. Pages: 128. Paper: 90gsm. Width: 5 5" (13.2 cm). Height: 7 3" (18.6 cm).</p>
 
-		<p class="price">Prices from: <b>&euro;15.00</b></p>
+		<p class="price">Prices from:
+			<span id="loc-currency-2">&#36;</span><b><span id="loc-price-2">18.99</span></b>
+		</p>
+
 		<div>
 			<p class="special-offer">Buy 2 and get 15% off</p>
 		</div>
@@ -294,9 +278,11 @@
 
 	<section class="details">
 
-		<a class="full-range" href="https://redbubbleus.sjv.io/7jMZd" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
+		<a class="full-range display-mobile-only" href="https://redbubbleus.sjv.io/7jMZd" target="_blank" rel="noopener">Shop the full range <i class="fa fa-arrow-right"></i></a>
 
-		<p class="description">All stationery items feature original designs created by artists. Ethically sourced. Fast delivery. No-quibble 90-day refunds. Store powered by <a href="#">RedBubble</a>.</p>
+		<a class="full-range display-desktop-only" href="https://redbubbleus.sjv.io/7jMZd" target="_blank" rel="noopener">Shop the full collection <i class="fa fa-arrow-right"></i></a>
+
+		<p class="description">All stationery items feature original designs created by artists. Ethically sourced. Fast delivery. No-quibble 90-day refunds. Store powered by <a href="https://redbubbleus.sjv.io/joJoe">RedBubble</a>.</p>
 
 		<a href="../" class="swag-home"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Back to Hamlet Swag Store Home</a>
 	</section>
@@ -309,7 +295,7 @@
 			<h2>About</h2>
 			<p>Supporting the original designs of independent artists and serving the world with quality, hand-picked <i>Hamlet</i>-themed merchandise.</p>
 			<p>Headquartered in the beautiful village of <a href="https://en.wikipedia.org/wiki/Mooncoin" target="_blank">Mooncoin</a>, County Kilkenny, Ireland.</p>
-			<p><i class="far fa-comment"></i> &nbsp;<a href="contact/">Say Hello</a></p>
+			<p><i class="far fa-comment"></i> &nbsp;<a href="../contact/">Say Hello</a></p>
 		</div>
 
 		<div class="col">
@@ -318,7 +304,7 @@
 			<div class="flex-inner">
 				<div class="col">
 					<p><a href="../face-masks/" title="Hamlet Swag Store: Face Masks">Face Masks</a> &nbsp;<sup><span>NEW</span></sup></p>
-					<p><a href="../stationery/" title="Hamlet Swag Store: Notebooks & Journals">Notebooks & Journals</a></p>
+					<p><a href="../stationery/" class="current" title="Hamlet Swag Store: Notebooks & Journals">Notebooks & Journals</a></p>
 					<p><a href="../hoodies/" title="Hamlet Swag Store: Hoodies & Sweatshirts">Hoodies & Sweatshirts</a></p>
 					<p><a href="../dresses/" title="Hamlet Swag Store: Dresses">Dresses</a></p>
 					<p><a href="../leggings/" title="Hamlet Swag Store: Leggings">Leggings</a></p>
@@ -326,7 +312,7 @@
 
 				<div class="col">
 					<p><a href="../phone-cases/" title="Hamlet Swag Store: Apple & Samsung <br>Phone Cases">Apple & Samsung <br>Phone Cases</a></p>
-					<p><a href="../apple-laptop-skins/" title="Hamlet Swag Store: Apple & PC <br>Laptop Skins">Apple & PC <br>Laptop Skins</a></p>
+					<p><a href="../apple-pc-laptop-skins/" title="Hamlet Swag Store: Apple & PC <br>Laptop Skins">Apple & PC <br>Laptop Skins</a></p>
 					<p><a href="../apple-laptop-sleeves/" title="Hamlet Swag Store: Apple Laptop Sleeves">Apple Laptop Sleeves</a></p>
 					<p><a href="../apple-iphone-wallets/" title="Hamlet Swag Store: Apple iPhone Wallets">Apple iPhone Wallets</a></p>
 				</div>
@@ -384,7 +370,7 @@
 				
 				<p class="no-mobile not-iphone-5">Absolutely no advertising, third-party, social media or pestilent, privacy-thieving cookies are used.</p>
 				
-				<p class="not-iphone-5">You can read our <a href="privacy/">Privacy Statement</a> for more information.</p>
+				<p class="not-iphone-5">You can read our <a href="../privacy/">Privacy Statement</a> for more information.</p>
 			</div>
 
 			<div class="col-3">
@@ -397,8 +383,40 @@
 			</div> 
 		</div>
 	</div>
-	<script src="../assets/js/scripts.js"></script>
+	<script src="../assets/js/scripts.js"></script>	
 	
+	<script>
+	if (sCoCode == "IE" || sCoCode == "DE" || sCoCode == "FR") {
+		document.getElementById('loc-currency').innerHTML = "&#8364;";
+		document.getElementById('loc-price').innerHTML = "9.99";
+		document.getElementById('loc-currency-2').innerHTML = "&#8364;";
+		document.getElementById('loc-price-2').innerHTML = "14.99";
+	}
 
-</body>
+	else if (sCoCode == "GB") {
+		document.getElementById('loc-currency').innerHTML = "&#163;";
+		document.getElementById('loc-price').innerHTML = "9.99";
+		document.getElementById('loc-currency-2').innerHTML = "&#163;";
+		document.getElementById('loc-price-2').innerHTML = "12.99";
+	}
+
+	else if (sCoCode == "CA") {
+		document.getElementById('loc-currency').innerHTML = "CA&#36; ";
+		document.getElementById('loc-price').innerHTML = "15.99";
+		document.getElementById('loc-currency-2').innerHTML = "CA&#36; ";
+		document.getElementById('loc-price-2').innerHTML = "24.99";		
+	}
+
+	else if (sCoCode == "AU") {
+		document.getElementById('loc-currency').innerHTML = "AU&#36; ";
+		document.getElementById('loc-price').innerHTML = "14.99";
+		document.getElementById('loc-currency-2').innerHTML = "AU&#36; ";
+		document.getElementById('loc-price-2').innerHTML = "24.99";
+	}
+
+	else { return }
+
+	</script>
+
+	</body>
 </html>
