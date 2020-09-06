@@ -68,6 +68,9 @@ body { font-family: "Playfair Display", serif }
 	.menu-desktop-inner > .col p a:link, 
 	.menu-desktop-inner > .col p a:visited { color: rgb(155,66,28) }
 
+	.menu-desktop-inner > .col p a.current:link, 
+	.menu-desktop-inner > .col p a.current:visited { color: rgb(71,145,118) }
+
 	.menu-desktop-inner > .col p a:focus,
 	.menu-desktop-inner > .col p a:hover,
 	.menu-desktop-inner > .col p a:active { color: rgb(71,145,118) }
@@ -162,6 +165,9 @@ body { font-family: "Playfair Display", serif }
 .flyout-menu ul li a:link,  
 .flyout-menu ul li a:visited { color: #fff }
 
+.flyout-menu ul li a.current:link,  
+.flyout-menu ul li a.current:visited { color: #bbe3dd }
+
 .flyout-menu ul li a:focus, 
 .flyout-menu ul li a:hover, 
 .flyout-menu ul li a:active  { color: #bbe3dd }
@@ -207,12 +213,6 @@ body { font-family: "Playfair Display", serif }
 .flyout-menu p a:focus, 
 .flyout-menu p a:hover, 
 .flyout-menu p a:active  { color: #bbe3dd; border-bottom-color: #bbe3dd }
-
-
-
-
-
-
 
 
 
@@ -703,6 +703,10 @@ footer .flex-inner a {
 
 footer a:link, footer a:visited { 
     color: #fff; border-color:#fff;
+}
+
+footer a.current:link, footer a.current:visited { 
+    color: #bbe3dd; border-color: #bbe3dd
 }
 
 footer a:focus,
