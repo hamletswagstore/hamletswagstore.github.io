@@ -156,7 +156,7 @@
 		<p class="description">All spiral notebooks include a handy document pocket inside the back cover. Choose from ruled or graph page styles. Pages: 120. Paper: 90gsm. Width: 6" (15.25 cm). Height: 8" (20.25 cm).</p>
 
 		<p class="price">Prices from:
-			<span id="loc-currency">&#36;</span><b><span id="loc-price">11.99</span></b>
+			<span id="loc-currency">&#36;</span><b><span id="loc-price">10.99</span></b>
 		</p>
 		<div>
 			<p class="special-offer">Buy 2 and get 15% off</p>
@@ -223,7 +223,7 @@
 		<p class="description">Design fully printed on front, spine and back covers. Choose from ruled, graph or blank page styles. Pages: 128. Paper: 90gsm. Width: 5 5" (13.2 cm). Height: 7 3" (18.6 cm).</p>
 
 		<p class="price">Prices from:
-			<span id="loc-currency-2">&#36;</span><b><span id="loc-price-2">18.99</span></b>
+			<span id="loc-currency-2">&#36;</span><b><span id="loc-price-2">17.99</span></b>
 		</p>
 
 		<div>
@@ -389,15 +389,15 @@
 	 function updateProductPrices(sCoCode) {
 		if (sCoCode == "IE" || sCoCode == "DE" || sCoCode == "FR") {
 			document.getElementById('loc-currency').innerHTML = "&#8364;";
+			document.getElementById('loc-currency-2').innerHTML = "&#8364;";	
 			document.getElementById('loc-price').innerHTML = "9.99";
-			document.getElementById('loc-currency-2').innerHTML = "&#8364;";
-			document.getElementById('loc-price-2').innerHTML = "14.99";
+			document.getElementById('loc-price-2').innerHTML = "15.99";
 		}
 
 		else if (sCoCode == "GB") {
 			document.getElementById('loc-currency').innerHTML = "&#163;";
-			document.getElementById('loc-price').innerHTML = "9.99";
 			document.getElementById('loc-currency-2').innerHTML = "&#163;";
+			document.getElementById('loc-price').innerHTML = "8.99";
 			document.getElementById('loc-price-2').innerHTML = "12.99";
 		}
 
