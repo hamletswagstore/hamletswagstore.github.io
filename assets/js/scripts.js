@@ -27,7 +27,7 @@ function getCountryCode() {
                 // console.log("Not US. Check cookie.")
                 checkCookie(); 
             }
-            if (document.getElementById('loc-currency').innerHTML) {
+            if (document.getElementById('loc-currency')) {
                 updateProductPrices(sCoCode);
             }
         }
