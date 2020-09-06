@@ -13,17 +13,17 @@ function getCountryCode() {
     Http.onreadystatechange = (e) => {
         if (Http.responseText === null || Http.responseText === '') {
             // default to check cookie present 
-            console.log("No response. Check cookie.")
+            // console.log("No response. Check cookie.")
             checkCookie();
         }
         else {
             var sGeoData = Http.responseText;
             var nCoCodePos = sGeoData.indexOf("loc=");
             var sCoCode = sGeoData.substring(nCoCodePos+4, nCoCodePos+6);
-            console.log(sCoCode);
+            // console.log(sCoCode);
             // not US, check for cookie present
             if (sCoCode != 'US')  {
-                console.log("Not US. Check cookie.")
+                // console.log("Not US. Check cookie.")
                 checkCookie(); 
             }
             if (document.getElementById('loc-currency').innerHTML) {
@@ -38,11 +38,11 @@ function checkCookie() {
 
     const x = getCookie('Elsinore');
     if (x) {
-        console.log("Found 'Elsinore' cookie.")
+        // console.log("Found 'Elsinore' cookie.")
         return;
     }
     else {
-        console.log("Display cookie message.")
+        // console.log("Display cookie message.")
         displayCookieMessage();       
     }
 }
