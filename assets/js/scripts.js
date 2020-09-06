@@ -19,7 +19,7 @@ function getCountryCode() {
             var sGeoData = Http.responseText;
             var nCoCodePos = sGeoData.indexOf("loc=");
             var sCoCode = sGeoData.substring(nCoCodePos+4, nCoCodePos+6);
-            console.log(sCoCode);
+            // console.log(sCoCode);
             // not US, check for cookie present
             if (sCoCode != 'US')  {
                 checkCookie(); 
